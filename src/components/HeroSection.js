@@ -6,7 +6,7 @@ import CardContent from "@mui/joy/CardContent";
 import Typography from "@mui/joy/Typography";
 import HeroBgImage from "../assets/herosection_bg.jpg";
 
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { fromToSetInRedux } from "../app/SearchSlice";
 
 
@@ -36,7 +36,7 @@ export default function BasicCard() {
     <Box>
       <Card sx={{ minWidth: 300, flexGrow: 1 }}>
         <CardCover >
-          <img src={HeroBgImage} alt="Hero bg Image" />
+          <img src={HeroBgImage} alt="Hero bg Img"/>
         </CardCover> 
 
         <CardContent id="mainContainer">

@@ -2,11 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
 import FlightMap from "../assets/flightMap.png";
-import { SearchFlights } from "../app/SearchSlice";
 import { useNavigate } from "react-router-dom";
 import { flightPrice } from "../app/SearchSlice";
 
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
 const AllFlights = () => {

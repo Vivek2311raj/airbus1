@@ -1,4 +1,4 @@
-import  React, {useEffect, useState} from 'react';
+import  React, {useEffect} from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -61,7 +61,7 @@ export default function Navbar() {
           dispatch(UserLogin(false));
 
         }
-   }, [])
+   }, [dispatch])
 
   return (
     <Box sx={{ flexGrow: 1 }} >

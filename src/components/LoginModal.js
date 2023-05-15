@@ -1,11 +1,9 @@
 import React, {useState} from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import {MdLockOpen} from "react-icons/md"
 import { useNavigate } from 'react-router-dom';
-import SignUPModal from './SignUpModal';
 import { UserLogin } from '../app/SearchSlice';
 import { useDispatch } from 'react-redux';
 
@@ -17,15 +15,10 @@ import { AiOutlineClose } from "react-icons/ai";
 import {
   MDBContainer,
   MDBInput,
-  MDBCheckbox,
-  MDBBtn,
-  MDBIcon
-}
+  MDBBtn}
 from 'mdb-react-ui-kit';
-import { Stack } from '@mui/material';
-import { textAlign, width } from '@mui/system';
 
-
+// eslint-disable-next-line
 const style = {
   position: 'absolute',
   top: '50%',
@@ -50,6 +43,7 @@ export default function LoginModal(props) {
 
 
   const [open, setOpen] = React.useState(true);
+  // eslint-disable-next-line
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 

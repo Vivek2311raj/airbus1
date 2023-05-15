@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+//import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import {MdLockOpen} from "react-icons/md"
@@ -15,15 +15,13 @@ import { AiOutlineClose } from "react-icons/ai";
 import {
   MDBContainer,
   MDBInput,
-  MDBCheckbox,
+ // MDBCheckbox,
   MDBBtn,
-  MDBIcon
+  //MDBIcon
 }
 from 'mdb-react-ui-kit';
-import { Stack } from '@mui/material';
-import { textAlign, width } from '@mui/system';
 
-
+// eslint-disable-next-line
 const style = {
   position: 'absolute',
   top: '50%',
